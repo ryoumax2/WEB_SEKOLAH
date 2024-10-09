@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    margin: auto;
+    margin-top: 20px;
+  }
+  
+  .border {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile {
+    display: flex;
+  }
+  
+  .image {
+    flex: 0 0 150px; /* Ukuran gambar */
+    margin-right: 20px; /* Jarak antara gambar dan teks */
+  }
+  
+  .image img {
+    width: 250px; /* Gambar mengikuti lebar kontainer */
+    border-radius: 8px;
+    height: 350px;
+    object-fit: cover; /* Memastikan gambar tidak terdistorsi */
+  }
+  .pengalaman ul li {
+    list-style: none;
+  }
+  
+  .text {
+    flex: 1; /* Teks mengambil sisa ruang */
+  }
+  
+  .text p {
+    font-weight: bold;
+    margin: 5px 0;
+  }
+  
+  .text h5 {
+    margin: 0 0 10px 0;
+  }
+  
+  .btn {
+    width: 200px;
+    margin-top: 3%;
+    background-color: rgb(255, 136, 0);
+    padding: 8px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+  }
+  .btn a {
+    text-decoration: none;
+    border: none;
+    color: white;
+  }
+  

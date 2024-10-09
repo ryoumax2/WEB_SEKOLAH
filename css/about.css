@@ -1,0 +1,360 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body,
+html {
+  overflow: hidden;
+  max-width: 100%;
+  box-sizing: border-box;
+  background-color: black;
+}
+
+.navbar {
+  float: right;
+}
+
+.home-button:hover::before {
+  width: 100%;
+}
+
+/* aboute */
+
+/* aboute */
+
+#about {
+  padding-top: 10%;
+}
+.image {
+  margin-left: 5%;
+}
+.image img {
+  border-radius: 20px;
+  transition: 0.3s all ease-in-out;
+}
+.image img:hover {
+  /* transform: scale(1.1); */
+  box-shadow: 2px 3px 4px white;
+}
+
+/* aboute-selesai */
+
+/* fitur */
+
+.fitur-text {
+  margin: 0 auto;
+}
+
+/* fitur-selesai */
+
+/* From Uiverse.io by adeladel522 */
+.button {
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  padding-block: 0.5rem;
+  padding-inline: 1.25rem;
+  background-color: rgb(0 107 179);
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #ffff;
+  gap: 10px;
+  font-weight: bold;
+  border: 3px solid #ffffff4d;
+  outline: none;
+  overflow: hidden;
+  font-size: 15px;
+  margin-left: 40%;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+  transform: scale(1.05);
+  border-color: #fff9;
+}
+
+.button:hover .icon {
+  transform: translate(4px);
+}
+
+.button:hover::before {
+  animation: shine 1.5s ease-out infinite;
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100%;
+  background-image: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0) 30%,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0) 70%
+  );
+  top: 0;
+  left: -100px;
+  opacity: 0.6;
+}
+
+@keyframes shine {
+  0% {
+    left: -100px;
+  }
+
+  60% {
+    left: 100%;
+  }
+
+  to {
+    left: 100%;
+  }
+}
+.border {
+  border-radius: 20px;
+  transition: 0.3s all ease;
+}
+.border:hover {
+  box-shadow: 2px 4px 5px black;
+}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+/* team */
+a {
+  text-decoration: none;
+}
+#team {
+  display: flex;
+  /* overflow: hidden; */
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  /* min-height: 100vh; */
+}
+.team-heading h3 {
+  color: white;
+  margin-top: 50px;
+  font-size: 3rem;
+  text-align: center;
+}
+.team-box {
+  width: 100%;
+  margin-top: 30px;
+  padding: 20px;
+  user-select: none;
+  background-color: rgb(150, 140, 140);
+  border-radius: 20px;
+  transition: 0.5s ease-in-out;
+}
+.team-box:hover {
+  box-shadow: 2px 4px 5px white;
+}
+.t-b-img {
+  position: relative; /* Ensure positioning is relative */
+  width: 100%;
+}
+
+.t-b-img::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgb(0, 0, 0) 130%
+  ); /* Corrected the gradient syntax */
+  border-radius: 0 0 20px 20px; /* Optional: to match the image border radius */
+}
+.t-b-img img {
+  width: 100%;
+  border-radius: 20px;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: filter 0.3s ease; /* Smooth transition for filter */
+}
+
+.t-b-text {
+  display: flex;
+  margin-top: 20%;
+  flex-direction: column;
+}
+.t-b-text strong {
+  color: white;
+  text-align: left;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.t-b-text a {
+  text-align: left;
+  color: white;
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+.team-social a {
+  text-align: left;
+  margin: 0 5px;
+  color: white;
+  font-size: 1.5rem;
+  transition: all ease 0.4s;
+}
+.team-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4px;
+}
+.team-social a:hover {
+  color: #0617ff;
+}
+.team-box {
+  position: relative;
+  min-width: 300px; /* Width of each team box */
+  margin: 0 10px; /* Spacing between boxes */
+  border-radius: 20px;
+  transition: filter 0.3s ease; /* Smooth transition for filter */
+}
+
+.t-b-img img {
+  width: 100%;
+  border-radius: 20px;
+  height: auto;
+  transition: filter 0.3s ease; /* Smooth transition for blur */
+}
+
+.t-b-img.blurred img {
+  filter: brightness(0.5) blur(4px); /* Darken and blur */
+}
+.swiper-wrapper {
+  margin-left: 10%;
+}
+.swiper-slide {
+  width: 300px !important;
+  /* opacity: 0.2; */
+  margin: 50px 0;
+  margin-top: 0;
+  transition: 0.3s all ease;
+}
+.swiper-slide-active {
+  opacity: 1;
+}
+.eskul {
+  display: flex;
+  overflow-x: scroll; /* Allow horizontal scrolling */
+  width: 100vw; /* Full viewport width */
+  height: 300px; /* Set height according to your design */
+}
+
+.eskul-btn {
+  cursor: pointer;
+  font-weight: 700;
+  transition: all 0.2s;
+  padding: 10px 20px;
+  width: 170px;
+  margin: 0 auto;
+  border-radius: 100px;
+  background: #cfef00;
+  border: 1px solid transparent;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  margin-bottom: 5%;
+}
+.eskul-btn:hover {
+  background: #c4e201;
+}
+.eskul-btn > svg {
+  width: 34px;
+  margin-left: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+.eskul-btn:hover svg {
+  transform: translateX(5px);
+}
+.eskul-btn:active {
+  transform: scale(0.95);
+}
+.location iframe {
+  margin-top: 50px;
+  width: 550px;
+  height: 650px;
+}
+footer {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+
+  padding-top: 5%;
+}
+footer img {
+  margin-left: 5%;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+.icon button {
+  transition: 0.3s all ease;
+  margin-top: 5%;
+}
+.icon button:hover {
+  box-shadow: 2px 2px 5px black;
+}
+.icon2 {
+  display: flex;
+  justify-content: space-around; /* Mengatur jarak antara item */
+  margin-top: 10%; /* Spasi atas */
+}
+
+.icon2 ul {
+  display: flex; /* Mengatur agar ul menjadi flexbox */
+  list-style: none; /* Menghilangkan bullet */
+  padding: 0; /* Menghilangkan padding default */
+}
+
+.icon2 li {
+  margin: 0 20px; /* Spasi horizontal antara item */
+  text-align: center; /* Memusatkan teks di dalam item */
+}
+.pembuat {
+  margin-top: 2%;
+}
+.pembuat p {
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+.pembuat p:hover {
+  color: red;
+  text-shadow: 2px 4px 5px white;
+  transition: 0.3s all ease-in-out;
+}
+/* .location i {
+  width: 1150px;
+} */
+/* .team ul li {
+  display: inline-flex;
+} */
+@media screen and (max-width: 768px) {
+  .slide-content {
+    margin: 0 10px;
+  }
+  .swiper-navBtn {
+    display: none;
+  }
+  .swiper-slide {
+    width: 150px;
+    height: 150px;
+  }
+}

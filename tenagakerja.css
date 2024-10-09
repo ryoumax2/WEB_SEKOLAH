@@ -1,0 +1,35 @@
+.btn {
+  width: 100%;
+  margin-top: 3%;
+  background-color: rgb(255, 136, 0);
+  padding: 5px;
+  border-radius: 10px;
+  color: white;
+}
+.btn-out {
+  width: 20%;
+  margin-left: 40%;
+  margin-bottom: 10%;
+  margin-top: -30%;
+  background-color: rgb(255, 136, 0);
+  padding: 5px;
+  border-radius: 10px;
+  color: white;
+}
+.eskul {
+  display: flex;
+  margin: 0 auto;
+  width: 150px;
+  background-color: red;
+}
+footer {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  margin-top: -5%;
+}
+footer img {
+  margin-left: 5%;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+/* From Uiverse.io by alexmaracinaru */
