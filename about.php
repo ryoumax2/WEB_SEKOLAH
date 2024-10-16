@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <title>Murid-pages</title>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="about.css">
     <!-- swiper css -->
 </head>
 
@@ -98,8 +98,8 @@
 
     <!-- aboute -->
 
-    <section id="about" class="about bg-dark dark:bg-gray-900">
-        <div data-aos="fade-up" class="image gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
+    <section id="about" class="about bg-dark dark:bg-gray-900" data-aos="fade-up">
+        <div class="image gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
             <img class="w-full dark:hidden" src="img/cisat2.jpeg" alt="dashboard image" style="overflow-y: hidden;">
 
             <div class="mt-4 md:mt-0">
@@ -143,14 +143,12 @@
     <!-- tenaga kerja -->
 
     <section class="team" id="Tenaga.K">
-        <div class="team-heading" data-aos="fade-up">
+        <div class="team-heading" data-aos="zoom-in">
             <h3>Tenaga Kerja</h3>
             <p class="text-white d-flex m-auto text-center" style="width: 650px; font-size: 16px; font-weight:400;">Di SMK PK Cibitung 1, kami memiliki tenaga kerja guru yang bukan hanya mengajarkan ilmu, tetapi juga menginspirasi generasi masa depan. Dengan dedikasi dan semangat yang tinggi, mereka membimbing siswa untuk mengembangkan potensi diri dan siap menghadapi tantangan dunia kerja.</p>
         </div>
 
-        <div #swiperRef="" class="swiper mySwiper mt-8" data-aos="fade-right"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine">
+        <div #swiperRef="" class="swiper mySwiper mt-8" data-aos="fade-right">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="team-box">
@@ -220,12 +218,12 @@
 
     <section id="fasilitas" class="bg-white dark:bg-gray-900">
         <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6  ">
-            <div class="text-fasilitas text-center m-auto max-w-screen-md mb-8 lg:mb-16 ">
+            <div class="text-fasilitas text-center m-auto max-w-screen-md mb-8 lg:mb-16 " data-aos="zoom-in">
                 <h2 class=" mb-4 text-4xl tracking-tight  font-extrabold text-gray-900 dark:text-white">FASILITAS</h2>
                 <p class="text-gray-500 sm:text-xl dark:text-gray-400">SMK Cibitung 1 dilengkapi dengan fasilitas modern, seperti laboratorium komputer, ruang praktik Perbankan Syariah, dan ruang kelas yang nyaman. Fasilitas ini mendukung proses belajar mengajar yang efektif dan mempersiapkan siswa untuk menghadapi tantangan di dunia kerja.</p>
             </div>
             <div class=" space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
-                <div class="border p-5 bg-gray-300" style=" border-radius:10px;" data-aos="fade-right">
+                <div class="border p-5 bg-gray-300" style=" border-radius:10px;" data-aos="flip-left">
                     <div class="flex justify-center items-center  mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
                             <path d="M575.8 255.5c0 18-15 32.1-32 32.1l-32 0 .7 160.2c0 2.7-.2 5.4-.5 8.1l0 16.2c0 22.1-17.9 40-40 40l-16 0c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1L416 512l-24 0c-22.1 0-40-17.9-40-40l0-24 0-64c0-17.7-14.3-32-32-32l-64 0c-17.7 0-32 14.3-32 32l0 64 0 24c0 22.1-17.9 40-40 40l-24 0-31.9 0c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2l-16 0c-22.1 0-40-17.9-40-40l0-112c0-.9 0-1.9 .1-2.8l0-69.7-32 0c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z" />
@@ -234,7 +232,7 @@
                     <h3 class="mb-2  text-xl font-bold dark:text-white">Ruangan Kelas</h3>
                     <p class="text-gray-800 dark:text-gray-400">Semua Ruangan Kelas DI SMk PK Cibiitung 1 Mempunyai Ac dan kipas Sebagai Pendingin ruangan memiliki beberapa fasilitas yang cukup nyaman Seperti: Meja, Kursi, proyektor / TV </p>
                 </div>
-                <div class="border p-5 bg-gray-400" style=" border-radius:10px;" data-aos="flip-left">
+                <div class="border p-5 bg-gray-400" style=" border-radius:10px;" data-aos="zoom-in">
                     <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
                             <path d="M320 32c-8.1 0-16.1 1.4-23.7 4.1L15.8 137.4C6.3 140.9 0 149.9 0 160s6.3 19.1 15.8 22.6l57.9 20.9C57.3 229.3 48 259.8 48 291.9l0 28.1c0 28.4-10.8 57.7-22.3 80.8c-6.5 13-13.9 25.8-22.5 37.6C0 442.7-.9 448.3 .9 453.4s6 8.9 11.2 10.2l64 16c4.2 1.1 8.7 .3 12.4-2s6.3-6.1 7.1-10.4c8.6-42.8 4.3-81.2-2.1-108.7C90.3 344.3 86 329.8 80 316.5l0-24.6c0-30.2 10.2-58.7 27.9-81.5c12.9-15.5 29.6-28 49.2-35.7l157-61.7c8.2-3.2 17.5 .8 20.7 9s-.8 17.5-9 20.7l-157 61.7c-12.4 4.9-23.3 12.4-32.2 21.6l159.6 57.6c7.6 2.7 15.6 4.1 23.7 4.1s16.1-1.4 23.7-4.1L624.2 182.6c9.5-3.4 15.8-12.5 15.8-22.6s-6.3-19.1-15.8-22.6L343.7 36.1C336.1 33.4 328.1 32 320 32zM128 408c0 35.3 86 72 192 72s192-36.7 192-72L496.7 262.6 354.5 314c-11.1 4-22.8 6-34.5 6s-23.5-2-34.5-6L143.3 262.6 128 408z" />
@@ -243,7 +241,7 @@
                     <h3 class="mb-2 text-xl font-bold dark:text-white">Jurusan</h3>
                     <p class="text-gray-800 dark:text-gray-400">JIka kamu menjadi Siswa/i kamu berhak untuk memilih salah satu Jurusan yang kamu minati. DI SMK PK 1 Cibitung memiliki beberapa jurusan yaitu : <strong>TMI</strong> , <strong>SIJA</strong>, <strong>MENLOG</strong>, <strong>PBS</strong> </p>
                 </div>
-                <div class="border p-5 bg-gray-400" style=" border-radius:10px;" data-aos="fade-left">
+                <div class="border p-5 bg-gray-400" style=" border-radius:10px;" data-aos="flip-right">
                     <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
                             <path d="M416 0C400 0 288 32 288 176l0 112c0 35.3 28.7 64 64 64l32 0 0 128c0 17.7 14.3 32 32 32s32-14.3 32-32l0-128 0-112 0-208c0-17.7-14.3-32-32-32zM64 16C64 7.8 57.9 1 49.7 .1S34.2 4.6 32.4 12.5L2.1 148.8C.7 155.1 0 161.5 0 167.9c0 45.9 35.1 83.6 80 87.7L80 480c0 17.7 14.3 32 32 32s32-14.3 32-32l0-224.4c44.9-4.1 80-41.8 80-87.7c0-6.4-.7-12.8-2.1-19.1L191.6 12.5c-1.8-8-9.3-13.3-17.4-12.4S160 7.8 160 16l0 134.2c0 5.4-4.4 9.8-9.8 9.8c-5.1 0-9.3-3.9-9.8-9L127.9 14.6C127.2 6.3 120.3 0 112 0s-15.2 6.3-15.9 14.6L83.7 151c-.5 5.1-4.7 9-9.8 9c-5.4 0-9.8-4.4-9.8-9.8L64 16zm48.3 152l-.3 0-.3 0 .3-.7 .3 .7z" />
@@ -252,7 +250,7 @@
                     <h3 class="mb-2 text-xl font-bold dark:text-white">Kantin</h3>
                     <p class="text-gray-800 dark:text-gray-400">SMK PK CIBITUNG 1 mempunyai kantin yang cukup lengkap untuk mengatasi kelaparan saat belajar, jika sudah waktunya istirahat kamu bisa ke kantin untuk membeli jajanan atau makanan yang kamu inginkan</p>
                 </div>
-                <div class="border p-5 bg-gray-400" style=" border-radius:10px;" data-aos="fade-right">
+                <div class="border p-5 bg-gray-400" style=" border-radius:10px;" data-aos="flip-left">
                     <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
                             <path d="M400 0c5 0 9.8 2.4 12.8 6.4c34.7 46.3 78.1 74.9 133.5 111.5c0 0 0 0 0 0s0 0 0 0c5.2 3.4 10.5 7 16 10.6c28.9 19.2 45.7 51.7 45.7 86.1c0 28.6-11.3 54.5-29.8 73.4l-356.4 0c-18.4-19-29.8-44.9-29.8-73.4c0-34.4 16.7-66.9 45.7-86.1c5.4-3.6 10.8-7.1 16-10.6c0 0 0 0 0 0s0 0 0 0C309.1 81.3 352.5 52.7 387.2 6.4c3-4 7.8-6.4 12.8-6.4zM288 512l0-72c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 72-48 0c-17.7 0-32-14.3-32-32l0-128c0-17.7 14.3-32 32-32l416 0c17.7 0 32 14.3 32 32l0 128c0 17.7-14.3 32-32 32l-48 0 0-72c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 72-64 0 0-58c0-19-8.4-37-23-49.2L400 384l-25 20.8C360.4 417 352 435 352 454l0 58-64 0zM70.4 5.2c5.7-4.3 13.5-4.3 19.2 0l16 12C139.8 42.9 160 83.2 160 126l0 2L0 128l0-2C0 83.2 20.2 42.9 54.4 17.2l16-12zM0 160l160 0 0 136.6c-19.1 11.1-32 31.7-32 55.4l0 128c0 9.6 2.1 18.6 5.8 26.8c-6.6 3.4-14 5.2-21.8 5.2l-64 0c-26.5 0-48-21.5-48-48L0 176l0-16z" />
@@ -261,7 +259,7 @@
                     <h3 class="mb-2 text-xl font-bold dark:text-white">Musholla</h3>
                     <p class="text-gray-800 dark:text-gray-400">SMK PK 1 Cibitung men Mewajibkan Siswa/i untuk beribadah ke pada Tuhan yang maha esa, </p>
                 </div>
-                <div class="border p-5 bg-gray-400" style=" border-radius:10px;" data-aos="flip-left">
+                <div class="border p-5 bg-gray-400" style=" border-radius:10px;" data-aos="zoom-in">
                     <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
                             <path d="M64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l448 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zm80 256l64 0c44.2 0 80 35.8 80 80c0 8.8-7.2 16-16 16L80 384c-8.8 0-16-7.2-16-16c0-44.2 35.8-80 80-80zm-32-96a64 64 0 1 1 128 0 64 64 0 1 1 -128 0zm256-32l128 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-128 0c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64l128 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-128 0c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64l128 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-128 0c-8.8 0-16-7.2-16-16s7.2-16 16-16z" />
@@ -270,7 +268,7 @@
                     <h3 class="mb-2 text-xl font-bold dark:text-white">Absensi Digital</h3>
                     <p class="text-gray-800 dark:text-gray-400">Jika kamu sudah jadi bagian Siswa/i SMK PK 1 Cibitung, kamu akan diberikan kartu untuk Ngetap di sensor Absen yang tersedia di lorong dekat tangga</p>
                 </div>
-                <div class="border p-5 bg-gray-400" style=" border-radius:10px;" data-aos="fade-left">
+                <div class="border p-5 bg-gray-400" style=" border-radius:10px;" data-aos="flip-right">
                     <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
                             <path d="M64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zM192 256l48 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-48 0 0 64zm48 64l-48 0 0 32c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-64 0-120c0-22.1 17.9-40 40-40l72 0c53 0 96 43 96 96s-43 96-96 96z" />
@@ -286,128 +284,76 @@
     <!-- fasilitas -- selesai -->
 
     <!-- eskul -->
-    <section class="team" id="eskul" style="margin-top: 10%;" data-aos="fade-left">
-        <div id="eskul" class="team-heading">
-            <h3>Eskul</h3>
-            <p class="text-white d-flex m-auto text-center" style="width: 500px;">SMK Cibitung 1 juga menyediakan berbagai kegiatan ekstrakurikuler, seperti olahraga, seni, dan organisasi siswa. Kegiatan ini bertujuan untuk mengembangkan soft skills siswa, seperti kepemimpinan, kerja sama, dan kreativitas.</p>
+    <section class="team" id="Tenaga.K">
+        <div class="team-heading" data-aos="zoom-in">
+            <h3>Esktrakulikuler</h3>
+            <p class="text-white d-flex m-auto text-center" style="width: 650px; font-size: 16px; font-weight: 400;">
+                Di SMK PK Cibitung 1, kami memiliki tenaga kerja guru yang bukan hanya mengajarkan ilmu, tetapi juga menginspirasi generasi masa depan. Dengan dedikasi dan semangat yang tinggi, mereka membimbing siswa untuk mengembangkan potensi diri dan siap menghadapi tantangan dunia kerja.
+            </p>
         </div>
-
-        <div #swiperRef="" class="swiper mySwiper" style="margin-top: 5%;" data-aos="fade-right"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine">
+        <br><br><br>
+        <div class="swiper mySwiper mt-8" data-aos="fade-right">
             <div class="swiper-wrapper">
-                <div class="swiper-slide ">
+                <div class="swiper-slide">
                     <div class="team-box">
                         <div class="t-b-img">
-                            <img src="img/futsal2.jpeg" alt="">
+                            <img src="img/futsal2.jpeg" alt="Futsal" style="background-position: top; width: 650px; height: 230px; background-color: transparent; margin: -30px auto; padding: 20px;">
                         </div>
                         <div class="t-b-text">
                             <strong>Futsal</strong>
-                            <a href="">Link ig</a>
-                            <div class="team-social ">
-                                <a href="#">
-                                    <i class="fa-brands fa-whatsapp"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fa-brands fa-square-instagram"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fa-brands fa-tiktok"></i>
-                                </a>
-                            </div>
+                            <p>Pelatih : Coach Ahmad Tahmadi</p>
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide ">
+                <div class="swiper-slide">
                     <div class="team-box">
                         <div class="t-b-img">
-                            <img src="img/paskib.jpeg" alt="">
+                            <img src="img/pancaksilat.jpeg" alt="Pancaksilat" style="background-position: top; width: 650px; height: 230px; background-color: transparent; margin: -30px auto; padding: 20px;">
                         </div>
                         <div class="t-b-text">
-                            <strong>Paskibra</strong>
-                            <a href="">Link ig</a>
-                            <div class="team-social ">
-                                <a href="#">
-                                    <i class="fa-brands fa-whatsapp"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fa-brands fa-square-instagram"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fa-brands fa-tiktok"></i>
-                                </a>
-                            </div>
+                            <strong>Pancaksilat</strong>
+                            <p>Pelatih : Coach Adi Sucipto </p>
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide ">
+                <div class="swiper-slide">
                     <div class="team-box">
                         <div class="t-b-img">
-                            <img src="img/pancaksilat.jpeg" alt="">
+                            <img src="img/voly2.jpeg" alt="Voly" style="background-position: top; width: 650px; height: 230px; background-color: transparent; margin: -30px auto; padding: 20px;">
                         </div>
                         <div class="t-b-text">
-                            <strong>IKS.PI Kera sakti</strong>
-                            <a href="">Link ig</a>
-                            <div class="team-social ">
-                                <a href="#">
-                                    <i class="fa-brands fa-whatsapp"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fa-brands fa-square-instagram"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fa-brands fa-tiktok"></i>
-                                </a>
-                            </div>
+                            <strong>VOllYBALL</strong>
+                            <p>Pelatih : Coach Arif</p>
                         </div>
                     </div>
                 </div>
-
-
             </div>
         </div>
-        </div>
-        </div>
-        </div>
 
-
-        </div>
-        <div class="swiper-pagination"></div>
-        </div>
-        <button class="eskul-btn" data-aos="fade-down">
+        <button class="eskul-btn" type="submit" name="submit.T" data-aos="fade-down">
             <span>
-                <a href="eksul.php">
-
-                    View All...
-                </a>
+                <a href="eksul.php">View All...</a>
             </span>
-            <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 74 74"
-                height="34"
-                width="34">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 74 74" height="34" width="34">
                 <circle stroke-width="3" stroke="black" r="35.5" cy="37" cx="37"></circle>
-                <path
-                    fill="black"
-                    d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z"></path>
+                <path fill="black" d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z"></path>
             </svg>
         </button>
-    </section>.
+    </section>
 
     <br>
     <br>
     <br>
-    <section class="location" data-aos="flip-left">
+    <section class="location" data-aos="flip-up">
         <iframe src="https://www.google.com/maps/embed?pb=!4v1728061788763!6m8!1m7!1svFVE7vQkSu4TglNYqFXpNA!2m2!1d-6.244819062367664!2d107.0950530666041!3f105.87793147932273!4f-14.280378341914414!5f0.5790707710881773" width="1600px" height="450" style="margin-top:50px; box-shadow: 5px 4px 5px grey; border-radius: 20px; margin: 50px auto;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>
 
     <footer>
-        <div class="logo" data-aos="fade-up">
-            <img src="img/logocisat-removebg-preview.png" alt="">
+        <div class="logo">
+            <img src="img/logocisat-removebg-preview.png" alt="" data-aos="fade-up">
 
             <!-- icons -->
-            <div class="icon flex items-center justify-center h-full m-auto mt-10" data-aos="fade-right">
+            <div class="icon flex items-center justify-center h-full m-auto mt-10" data-aos="fade-down">
                 <button class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2" type="button">
                     <a href="https://www.facebook.com/cibitung1smk?locale=id_ID">Facebook</a>
                 </button>
@@ -426,8 +372,8 @@
             <div class="icon2 d-flex" style="display: flex; justify-content: space-around; margin-top: 10%;">
                 <ul style="list-style: none; padding: 0; display: flex; gap: 20px;">
                     <li>
-                        <div class="location" data-aos="fade-up">
-                            <i class="fa-solid fa-location-dot" style="font-size:60px;"></i>
+                        <div class="location">
+                            <i class="fa-solid fa-location-dot" style="font-size:60px;" data-aos="fade-up"></i>
                             <br>
                             <br>
                             <h4>Jl. Kesemek</h4>
@@ -436,16 +382,16 @@
                         </div>
                     </li>
                     <li>
-                        <div class="phone" data-aos="fade-up">
-                            <i class="fa-solid fa-phone" style="font-size:60px;"></i>
+                        <div class="phone">
+                            <i class="fa-solid fa-phone" style="font-size:60px;" data-aos="fade-up"></i>
                             <br><br>
                             <h4>Contact</h4>
                             <p>+62 123-4567</p>
                         </div>
                     </li>
                     <li>
-                        <div class="email" data-aos="fade-up">
-                            <i class="fa-solid fa-envelope" style="font-size:60px;"></i>
+                        <div class="email">
+                            <i class="fa-solid fa-envelope" style="font-size:60px;" data-aos="fade-up"></i>
                             <br>
                             <br>
                             <h4>Email Us</h4>

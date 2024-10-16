@@ -5,7 +5,8 @@
 
 body,
 html {
-  overflow: hidden;
+  overflow-x: hidden;
+
   max-width: 100%;
   box-sizing: border-box;
   background-color: black;
@@ -17,6 +18,7 @@ html {
 
 .home-button:hover::before {
   width: 100%;
+  scrolling: none;
 }
 
 /* aboute */
