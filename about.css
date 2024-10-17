@@ -121,6 +121,28 @@ html {
     left: 100%;
   }
 }
+.team-heading {
+  margin: 15% auto;
+  width: 600px;
+}
+.team-heading h3 {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+.swiper-slide {
+  margin-top: -15%;
+}
+.team-heading-eskul {
+  margin: 15% auto;
+  width: 600px;
+}
+.team-heading-eskul h3 {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 5%;
+}
 .border {
   border-radius: 20px;
   transition: 0.3s all ease;
@@ -288,6 +310,35 @@ a {
 .eskul-btn:active {
   transform: scale(0.95);
 }
+.eskul-btn-2 {
+  cursor: pointer;
+  font-weight: 700;
+  transition: all 0.2s;
+  padding: 10px 20px;
+  width: 170px;
+  margin: 0 auto;
+  border-radius: 100px;
+  background: #cfef00;
+  border: 1px solid transparent;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  margin-bottom: 5%;
+}
+.eskul-btn-2:hover {
+  background: #c4e201;
+}
+.eskul-btn-2 > svg {
+  width: 34px;
+  margin-left: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+.eskul-btn-2:hover svg {
+  transform: translateX(5px);
+}
+.eskul-btn-2:active {
+  transform: scale(0.95);
+}
 .location iframe {
   margin-top: 50px;
   width: 550px;
@@ -358,5 +409,46 @@ footer img {
   .swiper-slide {
     width: 150px;
     height: 150px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .team-heading {
+    margin-left: -8%;
+  }
+  .team-heading h3 {
+    margin-left: -25%;
+  }
+  .team-heading p {
+    width: 300px;
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 13%;
+  }
+  .swiper {
+    position: relative;
+    z-index: 999;
+    height: 450px;
+  }
+  .eskul-btn {
+    margin-top: 10%;
+    margin-top: 5%;
+  }
+  .team-heading-eskul {
+    margin-top: 25%;
+  }
+  .team-heading-eskul h3 {
+    margin-left: -37%;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+  }
+  .team-heading-eskul p {
+    width: 300px;
+    margin-left: 11%;
+    text-align: left;
+  }
+  .eskul-btn-2 {
+    margin-top: -20%;
   }
 }

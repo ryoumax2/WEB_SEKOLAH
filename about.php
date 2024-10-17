@@ -145,7 +145,7 @@
     <section class="team" id="Tenaga.K">
         <div class="team-heading" data-aos="zoom-in">
             <h3>Tenaga Kerja</h3>
-            <p class="text-white d-flex m-auto text-center" style="width: 650px; font-size: 16px; font-weight:400;">Di SMK PK Cibitung 1, kami memiliki tenaga kerja guru yang bukan hanya mengajarkan ilmu, tetapi juga menginspirasi generasi masa depan. Dengan dedikasi dan semangat yang tinggi, mereka membimbing siswa untuk mengembangkan potensi diri dan siap menghadapi tantangan dunia kerja.</p>
+            <p class="mb-3 font-light text-gray-500 md:text-lg dark:text-gray-400" style="color: white;">Di SMK PK Cibitung 1, kami memiliki tenaga kerja guru yang bukan hanya mengajarkan ilmu, tetapi juga menginspirasi generasi masa depan. Dengan dedikasi dan semangat yang tinggi, mereka membimbing siswa untuk mengembangkan potensi diri dan siap menghadapi tantangan dunia kerja.</p>
         </div>
 
         <div #swiperRef="" class="swiper mySwiper mt-8" data-aos="fade-right">
@@ -187,7 +187,6 @@
                     </div>
                 </div>
             </div>
-        </div>
         </div>
         <button class="eskul-btn" type="submit" name="submit.T" data-aos="fade-down">
 
@@ -284,14 +283,15 @@
     <!-- fasilitas -- selesai -->
 
     <!-- eskul -->
-    <section class="team" id="Tenaga.K">
-        <div class="team-heading" data-aos="zoom-in">
+    <section class="team" id="eskul">
+        <div class="team-heading-eskul" data-aos="zoom-in">
             <h3>Esktrakulikuler</h3>
-            <p class="text-white d-flex m-auto text-center" style="width: 650px; font-size: 16px; font-weight: 400;">
+
+            <p class="text-white d-flex m-auto text-center" style=" font-size: 16px; font-weight: 400;">
                 Di SMK PK Cibitung 1, kami memiliki tenaga kerja guru yang bukan hanya mengajarkan ilmu, tetapi juga menginspirasi generasi masa depan. Dengan dedikasi dan semangat yang tinggi, mereka membimbing siswa untuk mengembangkan potensi diri dan siap menghadapi tantangan dunia kerja.
             </p>
         </div>
-        <br><br><br>
+
         <div class="swiper mySwiper mt-8" data-aos="fade-right">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
@@ -330,7 +330,7 @@
             </div>
         </div>
 
-        <button class="eskul-btn" type="submit" name="submit.T" data-aos="fade-down">
+        <button class="eskul-btn-2" type="submit" name="submit.T" data-aos="fade-down">
             <span>
                 <a href="eksul.php">View All...</a>
             </span>
